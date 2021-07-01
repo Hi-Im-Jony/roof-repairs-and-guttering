@@ -3,6 +3,7 @@
     <roof-banner />
     <intro-text />
     <mini-banner />
+    <services />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import IntroText from "../components/intro-text.vue";
 import MiniBanner from "../components/mini-banner.vue";
 import roofBanner from "../components/roof-banner.vue";
+import Services from "../components/services.vue";
 
 export default {
   name: "Home",
@@ -18,6 +20,7 @@ export default {
     roofBanner,
     MiniBanner,
     IntroText,
+    Services,
   },
 };
 </script>

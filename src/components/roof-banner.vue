@@ -1,5 +1,18 @@
 <template>
-  <div id="roof-banner"></div>
+  <div id="banner-container">
+    <div id="roof-banner"></div>
+    <div id="foreground">
+      <h1>ROOFING</h1>
+      <p>
+        25 year guaranteed Roofing Installations and Roofing repairs.
+        <br />
+        Call today for a free no-obligation quote
+      </p>
+      <a id="phone-btn" href="tel:+353873794038">
+        087 379 4038
+      </a>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -15,10 +28,41 @@ export default {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
+  filter: grayscale(20%);
   height: 50vh;
   width: 100vw;
   padding: 0;
   margin: 0;
+  color: red;
+}
+#foreground {
+  color: white;
+  text-shadow: 2px 2px 10px black;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  font-size: 1.7rem;
+  text-align: center;
+  background: rgba(12, 31, 56, 0.452);
+  height: 50vh;
+}
+#foreground p {
+  width: 50%;
+}
+#phone-btn {
+  color: white;
+  text-decoration: none;
+  background: rgb(185, 22, 22);
+  padding: 10px;
+  border: solid white;
+  border-radius: 30px;
+}
+#phone-btn:hover {
+  background: red;
 }
 </style>

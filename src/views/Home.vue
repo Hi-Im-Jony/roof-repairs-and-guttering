@@ -1,15 +1,18 @@
 <template>
-  <hello-world />
+  <div>
+    <roof-banner />
+    <h1>hi</h1>
+  </div>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+import roofBanner from "../components/roof-banner.vue";
 
-  export default {
-    name: 'Home',
+export default {
+  name: "Home",
 
-    components: {
-      HelloWorld,
-    },
-  }
+  components: {
+    roofBanner,
+  },
+};
 </script>

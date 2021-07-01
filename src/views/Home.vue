@@ -1,17 +1,15 @@
 <template>
-  <div id="home-page"></div>
+  <hello-world />
 </template>
 
 <script>
-export default {
-  name: "Home",
-  components: {},
-};
-</script>
+  import HelloWorld from '../components/HelloWorld'
 
-<style scoped>
-#home-page {
-  min-height: 100vh;
-  background: lightblue;
-}
-</style>
+  export default {
+    name: 'Home',
+
+    components: {
+      HelloWorld,
+    },
+  }
+</script>

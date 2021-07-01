@@ -6,17 +6,17 @@
       <p>
         25 year guaranteed Roofing Installations and Roofing repairs.
         <br />
-        Call today for a free no-obligation quote
+        Call today for a free no-obligation quote!
       </p>
-      <a id="phone-btn" href="tel:+353873794038">
-        087 379 4038
-      </a>
+      <phone-btn />
     </div>
   </div>
 </template>
 
 <script>
+import phoneBtn from "./phone-btn.vue";
 export default {
+  components: { phoneBtn },
   name: "roof-banner",
 };
 </script>
@@ -53,16 +53,6 @@ export default {
 }
 #foreground p {
   width: 50%;
-}
-#phone-btn {
-  color: white;
-  text-decoration: none;
-  background: rgb(185, 22, 22);
-  padding: 10px;
-  border: solid white;
-  border-radius: 30px;
-}
-#phone-btn:hover {
-  background: red;
+  min-width: 740px;
 }
 </style>

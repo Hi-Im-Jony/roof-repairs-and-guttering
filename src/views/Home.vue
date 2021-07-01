@@ -1,7 +1,5 @@
 <template>
-  <div id="home-page">
-    <h1>hello world!</h1>
-  </div>
+  <div id="home-page"></div>
 </template>
 
 <script>
@@ -10,3 +8,10 @@ export default {
   components: {},
 };
 </script>
+
+<style scoped>
+#home-page {
+  min-height: 100vh;
+  background: lightblue;
+}
+</style>

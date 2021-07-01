@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="container">
     <p id="intro-text">
       MJ Roofing Contractors offers the highest standard of roofing installation
       and roofing repair to clients in Dublin, Kildare, Wicklow and Meath.
@@ -28,6 +28,7 @@
       All our roofing services come with a 25-year guarantee and are available
       with a free no-obligation quote.
     </p>
+    <img id="image" src="../assets/tools.jpg" alt="" />
   </div>
 </template>
 
@@ -38,9 +39,18 @@ export default {
 </script>
 
 <style scoped>
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
 #intro-text {
   font-size: 20px;
   width: 50%;
   margin: 30px 20px 30px 20px;
+}
+#image {
+  width: 25vw;
 }
 </style>

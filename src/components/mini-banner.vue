@@ -34,10 +34,12 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 #text {
   width: 55%;
+  font-size: 27px;
+  margin: 0 0 60px 0;
 }
 #image-container {
   width: 50%;

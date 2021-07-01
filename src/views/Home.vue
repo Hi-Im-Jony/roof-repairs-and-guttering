@@ -50,10 +50,10 @@ export default {
 <style scoped>
 #homepage {
   min-height: 100vh;
-  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 50px;
 }
 #intro-text {
   width: 50%;

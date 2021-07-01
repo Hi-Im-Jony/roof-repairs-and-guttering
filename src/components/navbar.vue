@@ -1,7 +1,8 @@
 <template>
   <div id="nav">
-    <v-app-bar id="navbar" color="blue " fixed app dense>
-      <h1>Roofing and Guttering</h1>
+    <v-app-bar id="navbar" flat fixed app dense>
+      <a id="nav-title" href="/"><h1>Roofing and Guttering</h1></a>
+
       <v-spacer />
       <div id="deets-container">
         <a class="deet" href="mailto:bbuilding@gmail.com">
@@ -23,8 +24,12 @@ export default {
 
 <style scoped>
 #navbar {
-  color: rgb(235, 37, 37) !important;
-  background: rgb(41, 9, 158) !important;
+  color: white !important;
+  background: rgb(53, 55, 196) !important;
+}
+#nav-title {
+  color: white;
+  text-decoration: none;
 }
 .deet {
   color: rgb(202, 21, 21);

@@ -4,8 +4,6 @@
     <intro-text />
     <mini-banner />
     <services />
-    <img src="../assets/thin-banner.png" alt="" />
-    <img src="../assets/faq.png" alt="" />
   </div>
 </template>
 
@@ -33,6 +31,6 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 50px;
+  padding: 50px 0 50px 0;
 }
 </style>

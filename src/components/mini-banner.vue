@@ -51,4 +51,20 @@ export default {
   background-size: cover;
   filter: grayscale(20%);
 }
+@media (max-width: 700px) {
+  #mini-banner {
+    flex-direction: column;
+  }
+  #text-container {
+    margin: 15px 0 15px 0;
+    width: 100%;
+  }
+  #text {
+    margin: 0 0 20px 0;
+  }
+  #image-container {
+    width: 100%;
+    height: 200px;
+  }
+}
 </style>

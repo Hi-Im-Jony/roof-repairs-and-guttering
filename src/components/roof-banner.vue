@@ -28,12 +28,11 @@ export default {
   position: relative;
 }
 #roof-banner {
-  background-image: url("../assets/roof.jpg");
+  background-image: url("../assets/roof.jpeg");
   background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: grayscale(20%);
   height: 50vh;
   min-height: 350px;
   width: 100vw;

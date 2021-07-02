@@ -59,7 +59,7 @@ footer {
 }
 #locations {
   color: rgb(202, 21, 21);
-  padding: 0 !important;
+  padding: 10px !important;
   margin: 0 !important;
 }
 #compname {
@@ -81,9 +81,10 @@ footer {
   }
   .deet {
     margin: 0 50px 0 50px;
+    padding: 10px;
   }
   #compname {
-    margin: 0 !important;
+    margin: 10px 0 0 0 !important;
   }
 }
 </style>

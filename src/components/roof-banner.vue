@@ -58,6 +58,17 @@ export default {
 }
 #foreground p {
   width: 50%;
-  min-width: 740px;
+  min-width: 200px;
+}
+
+@media (max-width: 770px) {
+  #foreground {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 450px) {
+  #foreground {
+    font-size: 1.3rem;
+  }
 }
 </style>

@@ -7,8 +7,8 @@
 
       <br /><br />
 
-      Our team of Dublin roofing experts have over 25 years of experience and
-      complete every job to the very highest of regulatory standards.
+      Our team of roofing experts have over 25 years of experience and complete
+      every job to the very highest of regulatory standards.
 
       <br /><br />
 

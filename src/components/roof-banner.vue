@@ -22,6 +22,11 @@ export default {
 </script>
 
 <style scoped>
+#banner-container {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
 #roof-banner {
   background-image: url("../assets/roof.jpg");
   background-attachment: fixed;
@@ -36,7 +41,7 @@ export default {
   color: red;
 }
 #foreground {
-  color: white;
+  color: rgb(236, 241, 245);
   text-shadow: 2px 2px 10px black;
   top: 50px;
   display: flex;

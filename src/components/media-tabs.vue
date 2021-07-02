@@ -47,7 +47,7 @@ export default {
 
 <style scoped>
 #container {
-  padding: 30px 20vw 30px 20vw;
+  padding: 30px 20vw 50px 20vw;
   background: rgba(11, 19, 43, 0.836);
   width: 100%;
   text-align: center;

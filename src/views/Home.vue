@@ -5,6 +5,7 @@
     <mini-banner />
     <services />
     <media-tabs />
+    <myfooter />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import MiniBanner from "../components/mini-banner.vue";
 import roofBanner from "../components/roof-banner.vue";
 import Services from "../components/services.vue";
 import mediaTabs from "../components/media-tabs.vue";
+import Myfooter from "../components/myfooter.vue";
 
 export default {
   name: "Home",
@@ -24,6 +26,7 @@ export default {
     IntroText,
     Services,
     mediaTabs,
+    Myfooter,
   },
 };
 </script>
@@ -34,6 +37,6 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px 0 50px 0;
+  padding: 100px 0 0 0;
 }
 </style>

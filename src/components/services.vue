@@ -5,16 +5,18 @@
     </h1>
     <div id="group-1">
       <p class="small-text">
-        MJ Roofing Contractors has the expertise, the resources and the manpower
-        to complete roofing services in domestic properties all over Leinster.
-        We offer:
+        Roofing Reparis and Guttering has the expertise, the resources and the
+        manpower to complete roofing services in domestic properties all over
+        Leinster. We offer:
         <br />
         <br />
         <br />
-        -Roofing Services in Dublin -Roofing Services in Meath
+        -Roofing Services in Dublin
         <br />
         <br />
-        -Roofing Services in Kildare -Roofing Services in Meath
+        -Roofing Services in Meath
+        <br /><br />
+        -Roofing Services in Louth
       </p>
       <img src="../assets/jackhammer.png" alt="" />
     </div>
@@ -53,5 +55,8 @@ export default {
 }
 #group-1 {
   display: flex;
+}
+img {
+  margin: 30px;
 }
 </style>

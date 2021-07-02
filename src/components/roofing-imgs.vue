@@ -1,18 +1,13 @@
 <template>
   <div id="imgs-container">
-    <img src="../assets/jackhammer.png" alt="" />
-    <img src="../assets/jackhammer.png" alt="" />
-    <img src="../assets/jackhammer.png" alt="" />
-    <img src="../assets/jackhammer.png" alt="" />
-    <img src="../assets/jackhammer.png" alt="" />
-    <img src="../assets/jackhammer.png" alt="" />
-    <img src="../assets/jackhammer.png" alt="" />
-    <img src="../assets/jackhammer.png" alt="" />
-    <img src="../assets/jackhammer.png" alt="" />
-    <img src="../assets/jackhammer.png" alt="" />
-    <img src="../assets/jackhammer.png" alt="" />
-    <img src="../assets/jackhammer.png" alt="" />
-    <img src="../assets/jackhammer.png" alt="" />
+    <img class="img" src="../assets/jackhammer.png" alt="" />
+    <img class="img" src="../assets/jackhammer.png" alt="" />
+    <img class="img" src="../assets/jackhammer.png" alt="" />
+    <img class="img" src="../assets/jackhammer.png" alt="" />
+    <img class="img" src="../assets/jackhammer.png" alt="" />
+    <img class="img" src="../assets/jackhammer.png" alt="" />
+    <img class="img" src="../assets/jackhammer.png" alt="" />
+    <img class="img" src="../assets/jackhammer.png" alt="" />
   </div>
 </template>
 
@@ -23,8 +18,10 @@ export default {
 </script>
 
 <style scoped>
-img {
+.img {
   width: 300px;
+  height: auto;
+  max-width: 75%;
   margin: 10px;
 }
 </style>

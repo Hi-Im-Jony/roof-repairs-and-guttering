@@ -55,9 +55,15 @@ export default {
   margin: 50px 0 0 0;
 }
 .tab-content {
-  background: rgb(223, 216, 216);
+  background: rgb(235, 232, 232);
   height: 50vh;
   color: black;
   overflow-y: scroll;
+}
+
+@media (max-width: 660px) {
+  #container {
+    padding: 20px 10vw 20px 10vw;
+  }
 }
 </style>

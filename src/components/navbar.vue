@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
     <nav id="navbar">
-      <a href="/"><img id="logo" src="../assets/logo.png" alt=""/></a>
+      <a href="/"><img id="logo" src="../assets/logo4.png" alt=""/></a>
 
       <div id="deets-container">
         <a class="deet" href="mailto:roofingr7@gmail.com">

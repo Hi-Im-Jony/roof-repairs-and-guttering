@@ -31,6 +31,7 @@ export default {
   position: fixed;
   z-index: 1;
   width: 100%;
+  height: 130px;
   display: flex;
   padding: 0 50px 0 50px !important;
   justify-content: space-evenly;

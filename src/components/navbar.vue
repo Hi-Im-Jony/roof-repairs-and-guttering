@@ -35,7 +35,7 @@ export default {
   padding: 0 50px 0 50px !important;
   justify-content: space-evenly;
   align-items: center;
-  border-top: solid rgb(37, 37, 124);
+  border-top: solid rgba(11, 19, 43, 0.836);
   border-width: 20px;
 }
 #logo {

@@ -20,7 +20,7 @@
       roofingr7@gmail.com
     </a>
     <v-spacer class="nomob" />
-    <p id="compname">Roofing Repairs & Guttering - 2021</p>
+    <p id="compname">Roof Repairs & Guttering.ie - 2021</p>
   </footer>
 </template>
 
@@ -81,6 +81,9 @@ footer {
   }
   .deet {
     margin: 0 50px 0 50px;
+  }
+  #compname {
+    margin: 0 !important;
   }
 }
 </style>

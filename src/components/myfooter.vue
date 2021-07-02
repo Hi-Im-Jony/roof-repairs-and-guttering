@@ -1,26 +1,25 @@
 <template>
   <footer>
-    <div id="deets-container">
-      <p id="locations">
-        <v-icon class="icon">
-          mdi-map-marker
-        </v-icon>
-        Dublin, Meath & Louth
-        <br />
-      </p>
-      <a class="deet" href="tel:+353873794038">
-        <v-icon class="icon">
-          mdi-phone
-        </v-icon>
-        087 379 4038
-      </a>
-      <a class="deet" href="mailto:roofingr7@gmail.com">
-        <v-icon class="icon">
-          mdi-email
-        </v-icon>
-        roofingr7@gmail.com
-      </a>
-    </div>
+    <p id="locations">
+      <v-icon class="icon">
+        mdi-map-marker
+      </v-icon>
+      Dublin, Meath & Louth
+      <br />
+    </p>
+    <a class="deet" href="tel:+353873794038">
+      <v-icon class="icon">
+        mdi-phone
+      </v-icon>
+      087 379 4038
+    </a>
+    <a class="deet" href="mailto:roofingr7@gmail.com">
+      <v-icon class="icon">
+        mdi-email
+      </v-icon>
+      roofingr7@gmail.com
+    </a>
+    <v-spacer class="nomob" />
     <p id="compname">Roofing Repairs & Guttering - 2021</p>
   </footer>
 </template>
@@ -70,5 +69,18 @@ footer {
 .icon {
   font-size: 1.5rem !important;
   color: inherit !important;
+}
+
+@media (max-width: 1000px) {
+  footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nomob {
+    display: none;
+  }
+  .deet {
+    margin: 0 50px 0 50px;
+  }
 }
 </style>

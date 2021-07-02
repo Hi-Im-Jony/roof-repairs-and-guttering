@@ -1,0 +1,62 @@
+<template>
+  <div id="container">
+    <h1>
+      Here Is Some Of Our Past Work
+    </h1>
+    <v-tabs fixed-tabs background-color="#DC143C" color="white" dark>
+      <v-tab>
+        Roofing
+      </v-tab>
+      <v-tab>
+        Guttering
+      </v-tab>
+      <v-tab>
+        Videos
+      </v-tab>
+      <v-tab-item>
+        <div class="tab-content">
+          <roofing-imgs />
+        </div>
+      </v-tab-item>
+      <v-tab-item>
+        <div class="tab-content">
+          <guttering-imgs />
+        </div>
+      </v-tab-item>
+      <v-tab-item>
+        <div class="tab-content">
+          <h1>Videos</h1>
+        </div>
+      </v-tab-item>
+    </v-tabs>
+  </div>
+</template>
+
+<script>
+import roofingImgs from "./roofing-imgs.vue";
+import gutteringImgs from "./guttering-imgs.vue";
+
+export default {
+  components: {
+    roofingImgs,
+    gutteringImgs,
+  },
+  name: "mediaTabs",
+};
+</script>
+
+<style scoped>
+#container {
+  padding: 30px 20vw 30px 20vw;
+  background: rgba(11, 19, 43, 0.836);
+  width: 100%;
+  text-align: center;
+  color: aliceblue;
+}
+.tab-content {
+  background: rgb(223, 216, 216);
+  height: 50vh;
+  color: black;
+  overflow-y: scroll;
+}
+</style>

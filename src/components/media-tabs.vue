@@ -52,6 +52,7 @@ export default {
   width: 100%;
   text-align: center;
   color: aliceblue;
+  margin: 50px 0 0 0;
 }
 .tab-content {
   background: rgb(223, 216, 216);

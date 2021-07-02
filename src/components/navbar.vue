@@ -1,18 +1,20 @@
 <template>
   <div id="nav">
-    <v-app-bar id="navbar" flat fixed app dense>
-      <a id="nav-title" href="/"><h1>Roofing and Guttering</h1></a>
+    <nav id="navbar">
+      <a href="/"><img id="logo" src="../assets/logo.png" alt=""/></a>
 
-      <v-spacer />
       <div id="deets-container">
-        <a class="deet" href="mailto:bbuilding@gmail.com">
-          bbuilding@gmail.com
+        <a class="deet" href="mailto:roofingr7@gmail.com">
+          roofingr7@gmail.com
         </a>
         <a class="deet" href="tel:+353873794038">
-          +353 87 379 4038
+          087 379 4038
         </a>
+        <p>
+          Dublin, Meath & Louth
+        </p>
       </div>
-    </v-app-bar>
+    </nav>
   </div>
 </template>
 
@@ -24,19 +26,38 @@ export default {
 
 <style scoped>
 #navbar {
-  color: white !important;
-  background: rgb(53, 55, 196) !important;
-}
-#nav-title {
   color: white;
-  text-decoration: none;
+  background: rgb(248, 248, 248);
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  padding: 0 50px 0 50px !important;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: solid rgb(37, 37, 124);
+  border-width: 20px;
+}
+#logo {
+  height: 100px;
+  margin: 0 !important;
+}
+#deets-container {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
 }
 .deet {
   color: rgb(202, 21, 21);
   padding: 10px;
-  font-size: 1.1rem;
 }
 .deet:hover {
   color: rgb(235, 37, 37);
+}
+p {
+  color: rgb(202, 21, 21);
+  padding: 10px;
+  border-left: solid red;
+  margin: 10px !important;
 }
 </style>

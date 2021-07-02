@@ -3,13 +3,11 @@
     <div id="text-container">
       <p id="text">
         For a free no-obligation quote on your next flat roofing repair or
-        pitched roof repair, get in contact with MJ Roofing Contractors today.
+        pitched roof repair, get in contact with us today.
       </p>
       <phone-btn />
     </div>
-    <div id="image-container">
-      <img id="roofer" src="../assets/roofer.png" alt="" />
-    </div>
+    <div id="image-container"></div>
   </div>
 </template>
 <script>
@@ -23,12 +21,14 @@ export default {
 <style scoped>
 #mini-banner {
   background: rgb(34, 33, 33);
-  color: white;
+  color: rgb(236, 241, 245);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   margin: 60px 0 60px 0;
+  position: relative;
+  width: 100%;
 }
 #text-container {
   width: 50%;
@@ -43,9 +43,12 @@ export default {
   margin: 0 0 60px 0;
 }
 #image-container {
-  width: 50%;
-}
-#roofer {
-  width: 100%;
+  width: 56%;
+  height: 400px;
+  position: relative;
+  bottom: 0;
+  background-image: url("../assets/roofer.png");
+  background-size: cover;
+  filter: grayscale(20%);
 }
 </style>

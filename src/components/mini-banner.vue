@@ -20,7 +20,7 @@ export default {
 
 <style scoped>
 #mini-banner {
-  background: rgb(34, 33, 33);
+  background: rgba(11, 19, 43, 0.836);
   color: rgb(236, 241, 245);
   display: flex;
   align-items: center;

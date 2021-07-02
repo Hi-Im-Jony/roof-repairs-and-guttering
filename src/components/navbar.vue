@@ -3,7 +3,7 @@
     <nav id="navbar">
       <a href="/"><img id="logo" src="../assets/logo4.png" alt=""/></a>
 
-      <div id="deets-container">
+      <div v-if="windowWidth > 860" id="deets-container">
         <a class="deet" href="mailto:roofingr7@gmail.com">
           roofingr7@gmail.com
         </a>
@@ -21,6 +21,9 @@
 <script>
 export default {
   name: "navbar",
+  data: () => ({
+    windowWidth: window.innerWidth,
+  }),
 };
 </script>
 
@@ -61,5 +64,7 @@ p {
   padding: 10px;
   border-left: solid red;
   margin: 10px !important;
+}
+@media (max-width: 860px) {
 }
 </style>

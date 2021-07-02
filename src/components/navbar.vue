@@ -50,6 +50,7 @@ export default {
 .deet {
   color: rgb(202, 21, 21);
   padding: 10px;
+  text-decoration: none;
 }
 .deet:hover {
   color: rgb(235, 37, 37);

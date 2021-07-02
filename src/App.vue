@@ -21,7 +21,6 @@ export default {
 
 <style scoped>
 * {
-  padding: 0 !important;
-  margin: 0 !important;
+  font-family: Helvetica, sans-serif;
 }
 </style>

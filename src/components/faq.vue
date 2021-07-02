@@ -21,13 +21,14 @@ export default {
             "We offer free no-obligation quotes on all flat roof repairs. Our quotes are based on the type of flat roof and the nature of the repairs needed. No matter the specifics of your flat roof repair we always make every effort to supply a competitive quote.",
         },
         {
-          title: "How long is a day and year on Venus?",
+          title: "Will a reroof increase the value of my property?",
           value:
-            "Venus takes 224.7 Earth days to complete one orbit around the Sun.",
+            "While it may not increase the value of your property a reroof will in all likelihood be a big selling point when you come to sell your home, helping you get the full asking price.",
         },
         {
-          title: "What animal smells like popcorn?",
-          value: "Binturongs smell like popcorn.",
+          title: "How do I know when my roof needs to be replaced?",
+          value:
+            "<h4>A few tell-tale signs are:</h4><ol><li>Shingle edges have begun to curl</li><li>Your roof is over 20 years old</li><li>Repeated problems with leaks and or ceiling damp</li><li>Slates and tiles need to be replaced and repaired regularly</li></ol>",
         },
       ],
     };

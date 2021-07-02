@@ -1,8 +1,9 @@
 <template>
   <div id="container">
     <p id="intro-text">
-      MJ Roofing Contractors offers the highest standard of roofing installation
-      and roofing repair to clients in Dublin, Kildare, Wicklow and Meath.
+      Here at Roofing Repairs & Guttering, we offer the highest standard of
+      roofing installation and roofing repair to clients in Dublin, Meath and
+      Louth.
 
       <br /><br />
 
@@ -20,21 +21,25 @@
       We specialise in flat roof installations and flat roof repairs on home
       extensions. We can refit old, poorly laid flat roofs or install a flat
       roof on a new extension. Whatever the roofing requirement, clients can
-      rest assured that their roofing service will be completed to the high MJ
-      Roofing Contractors standard of quality and craftsmanship.
+      rest assured that their roofing service will be completed to our high
+      standard of quality and craftsmanship.
 
       <br /><br />
 
       All our roofing services come with a 25-year guarantee and are available
       with a free no-obligation quote.
     </p>
-    <img id="image" src="../assets/tools.jpg" alt="" />
+    <faq />
   </div>
 </template>
 
 <script>
+import faq from "./faq.vue";
 export default {
   name: "intro-text",
+  components: {
+    faq,
+  },
 };
 </script>
 

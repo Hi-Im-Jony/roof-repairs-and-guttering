@@ -23,6 +23,24 @@
         continue.</strong
       >
     </noscript>
+    <form
+      name="quote-form"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      hidden
+      style="padding: 0; margin: 0;"
+    >
+      <p class="hidden" hidden>
+        <label>Don't fill if human: <input name="bot-field"/></label>
+      </p>
+      <input type="text" name="name" />
+      <input type="text" name="service" />
+      <input type="text" name="phone" />
+      <input type="text" name="email" />
+      <textarea name="message"></textarea>
+      <button type="submit">Send</button>
+    </form>
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>

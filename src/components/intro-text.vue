@@ -1,5 +1,6 @@
 <template>
   <div id="container">
+    <faq />
     <p id="intro-text">
       Here at Roofing Repairs & Guttering, we offer the highest standard of
       roofing installation and roofing repair to clients in Dublin, Meath and
@@ -29,16 +30,18 @@
       All our roofing services come with a 25-year guarantee and are available
       with a free no-obligation quote.
     </p>
-    <faq />
+    <quote-form />
   </div>
 </template>
 
 <script>
 import faq from "./faq.vue";
+import QuoteForm from "./quote-form.vue";
 export default {
   name: "intro-text",
   components: {
     faq,
+    QuoteForm,
   },
 };
 </script>
@@ -52,7 +55,7 @@ export default {
 }
 #intro-text {
   font-size: 20px;
-  width: 50%;
+  width: 40%;
   margin: 30px 20px 30px 20px;
 }
 #image {

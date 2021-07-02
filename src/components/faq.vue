@@ -38,7 +38,7 @@ export default {
 
 <style scoped>
 #faq-container {
-  width: 40vw;
+  width: 25%;
 }
 @media (max-width: 800px) {
   #faq-container {

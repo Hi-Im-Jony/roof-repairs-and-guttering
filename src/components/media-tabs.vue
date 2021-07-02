@@ -11,7 +11,7 @@
         Guttering
       </v-tab>
       <v-tab>
-        Videos
+        Chimneys
       </v-tab>
       <v-tab-item>
         <div class="tab-content">
@@ -25,7 +25,7 @@
       </v-tab-item>
       <v-tab-item>
         <div class="tab-content">
-          <h1>Videos</h1>
+          <chimney-imgs />
         </div>
       </v-tab-item>
     </v-tabs>
@@ -35,11 +35,13 @@
 <script>
 import roofingImgs from "./roofing-imgs.vue";
 import gutteringImgs from "./guttering-imgs.vue";
+import ChimneyImgs from "./chimney-imgs.vue";
 
 export default {
   components: {
     roofingImgs,
     gutteringImgs,
+    ChimneyImgs,
   },
   name: "mediaTabs",
 };

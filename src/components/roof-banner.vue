@@ -35,6 +35,7 @@ export default {
   background-size: cover;
   filter: grayscale(20%);
   height: 50vh;
+  min-height: 350px;
   width: 100vw;
   padding: 0;
   margin: 0;
@@ -55,6 +56,7 @@ export default {
   text-align: center;
   background: rgba(12, 31, 56, 0.452);
   height: 50vh;
+  min-height: 350px;
 }
 #foreground p {
   width: 50%;

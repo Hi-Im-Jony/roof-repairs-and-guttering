@@ -21,10 +21,7 @@
         roofingr7@gmail.com
       </a>
     </div>
-    <p>Roofing Repairs & Guttering - 2021</p>
-    <small>
-      Designed by <a href="https://corneljonathan.website">CJ Web Design</a>
-    </small>
+    <p id="compname">Roofing Repairs & Guttering - 2021</p>
   </footer>
 </template>
 
@@ -39,29 +36,36 @@ footer {
   background: rgb(10, 16, 48);
   color: aliceblue;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: space-between;
   text-align: center;
+  padding: 5px 10px 5px 10px;
 }
 #deets-container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 100%;
   font-size: 1.1rem;
   padding: 0 !important;
+  width: 40%;
 }
 .deet {
   color: rgb(202, 21, 21);
   padding: 10px;
   text-decoration: none;
+  margin: 0 0 0 50px;
 }
 .deet:hover {
   color: rgb(235, 37, 37);
 }
 #locations {
   color: rgb(202, 21, 21);
+  padding: 0 !important;
+  margin: 0 !important;
+}
+#compname {
+  padding: 0 !important;
+  margin: 0 50px 0 0 !important;
 }
 .icon {
   font-size: 1.5rem !important;

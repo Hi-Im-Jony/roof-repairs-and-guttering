@@ -30,5 +30,6 @@ export default {
 }
 #icon {
   margin-right: 15px;
+  font-size: inherit !important;
 }
 </style>

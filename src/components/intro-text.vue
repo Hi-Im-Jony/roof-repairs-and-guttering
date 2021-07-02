@@ -48,7 +48,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
 }
 #intro-text {
   font-size: 20px;
@@ -57,5 +57,14 @@ export default {
 }
 #image {
   width: 25vw;
+}
+@media (max-width: 800px) {
+  #container {
+    flex-direction: column;
+  }
+  #intro-text {
+    width: 80%;
+    text-align: center;
+  }
 }
 </style>

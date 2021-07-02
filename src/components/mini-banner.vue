@@ -8,7 +8,7 @@
       <phone-btn />
     </div>
     <div id="image-container">
-      <img id="roofer" src="../assets/roofer-2.jpg" alt="" />
+      <img id="roofer" src="../assets/roofer.png" alt="" />
     </div>
   </div>
 </template>
@@ -22,7 +22,7 @@ export default {
 
 <style scoped>
 #mini-banner {
-  background: black;
+  background: rgb(34, 33, 33);
   color: white;
   display: flex;
   align-items: center;
@@ -37,8 +37,8 @@ export default {
   justify-content: space-around;
 }
 #text {
-  width: 55%;
-  font-size: 27px;
+  width: 85%;
+  font-size: 25px;
   margin: 0 0 60px 0;
 }
 #image-container {

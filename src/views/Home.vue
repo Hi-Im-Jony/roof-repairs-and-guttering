@@ -4,6 +4,8 @@
     <intro-text />
     <mini-banner />
     <services />
+    <img src="../assets/thin-banner.png" alt="" />
+    <img src="../assets/faq.png" alt="" />
   </div>
 </template>
 

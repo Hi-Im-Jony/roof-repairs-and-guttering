@@ -68,6 +68,11 @@ export default {
   height: 280px;
 }
 @media (max-width: 1350px) {
+  #services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   #title {
     text-align: center;
     margin: 0 0 30px 0;
@@ -79,9 +84,14 @@ export default {
   }
   #jack {
     width: 50vw;
-    min-width: 300px;
+    min-width: 250px;
     max-width: 550px;
     height: auto;
+    margin: 10px;
+  }
+  #group-2 {
+    text-align: center;
+    margin: 0 !important;
   }
 }
 </style>

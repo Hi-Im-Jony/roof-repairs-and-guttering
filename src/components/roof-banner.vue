@@ -8,7 +8,7 @@
         <br />
         Call today for a free no-obligation quote!
       </p>
-      <phone-btn />
+      <phone-btn flashing="true" />
     </div>
   </div>
 </template>

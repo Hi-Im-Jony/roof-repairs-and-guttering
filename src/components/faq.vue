@@ -39,4 +39,9 @@ export default {
 #faq-container {
   width: 40vw;
 }
+@media (max-width: 800px) {
+  #faq-container {
+    width: 75vw;
+  }
+}
 </style>

@@ -12,14 +12,15 @@ export default {
 
 <style scoped>
 #phone-btn {
-  color: white;
+  color: rgb(236, 241, 245);
   text-decoration: none;
   background: rgb(185, 22, 22);
   padding: 10px;
-  border: solid white;
+  border: solid rgb(236, 241, 245);
+  border-width: 2px;
   border-radius: 30px;
 }
 #phone-btn:hover {
-  background: rgb(99, 36, 36);
+  background: rgb(126, 52, 52);
 }
 </style>

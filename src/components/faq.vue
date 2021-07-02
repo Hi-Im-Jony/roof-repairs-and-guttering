@@ -40,7 +40,7 @@ export default {
 #faq-container {
   width: 25%;
 }
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
   #faq-container {
     width: 75vw;
   }

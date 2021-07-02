@@ -72,11 +72,14 @@ export default {
   data: () => ({
     form: {
       name: "",
+      service: "",
       phone: "",
       email: "",
       message: "",
     },
     items: ["Roofing", "Guttering", "Chimney"],
+    success: false,
+    fail: false,
   }),
   methods: {
     encode(data) {
@@ -97,11 +100,11 @@ export default {
           ...this.form,
         }),
       });
-      then(() => {
-        this.$router.push("thanks");
-      }).catch(() => {
-        this.$router.push("404");
-      });
+      this.form.name = "";
+      this.form.phone = "";
+      this.form.service = "";
+      this.form.email = "";
+      this.form.message = "";
     },
   },
 };
@@ -122,9 +125,9 @@ export default {
 form {
   background: rgba(11, 19, 43, 0.836);
   color: aliceblue;
-  width: 400px;
   padding: 20px;
   display: flex;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -133,8 +136,8 @@ form {
   width: 90%;
 }
 
-@media (max-width: 720px) {
-  form {
+@media (max-width: 1100px) {
+  #form-container {
     width: 95%;
     max-width: 400px;
   }

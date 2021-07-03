@@ -76,7 +76,7 @@ p {
   border-left: solid red;
   margin: 10px !important;
 }
-@media (max-width: 860px) {
+@media (max-width: 880px) {
   #navbar {
     flex-direction: column-reverse;
     padding: 0 !important;

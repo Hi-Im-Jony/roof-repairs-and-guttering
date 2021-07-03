@@ -33,7 +33,6 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   height: 50vh;
-  min-height: 350px;
   width: 100vw;
   padding: 0;
   margin: 0;

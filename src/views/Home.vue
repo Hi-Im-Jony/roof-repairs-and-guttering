@@ -1,6 +1,7 @@
 <template>
   <div id="homepage">
     <carousel-banner />
+    <paint />
     <intro-text />
     <mini-banner />
     <services />
@@ -17,6 +18,7 @@ import Services from "../components/services.vue";
 import mediaTabs from "../components/media-tabs.vue";
 import Myfooter from "../components/myfooter.vue";
 import CarouselBanner from "../components/carousel-banner.vue";
+import Paint from "../components/paint.vue";
 
 export default {
   name: "Home",
@@ -29,6 +31,7 @@ export default {
     mediaTabs,
     Myfooter,
     CarouselBanner,
+    Paint,
   },
 };
 </script>

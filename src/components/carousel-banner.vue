@@ -1,5 +1,11 @@
 <template>
-  <v-carousel cycle interval="4500" hide-delimiters show-arrows-on-hover>
+  <v-carousel
+    id="carousel"
+    cycle
+    interval="4500"
+    hide-delimiters
+    show-arrows-on-hover
+  >
     <v-carousel-item>
       <roof-banner />
     </v-carousel-item>
@@ -35,30 +41,12 @@ export default {
 </script>
 
 <style scoped>
-.item {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  color: rgb(236, 241, 245);
-  text-shadow: 2px 2px 10px black;
-  font-size: 1.7rem;
-  text-align: center;
-}
-.item p {
-  width: 50%;
-  min-width: 200px;
-}
-
-@media (max-width: 770px) {
-  .item {
-    font-size: 1.5rem;
-  }
-}
-@media (max-width: 450px) {
-  .item {
-    font-size: 1.3rem;
-  }
+#carousel {
+  background: rgb(15, 22, 41) !important;
+  height: 50vh !important;
+  max-height: 498px !important;
+  min-height: 350px !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 </style>

@@ -39,4 +39,9 @@ export default {
   align-items: center;
   padding: 130px 0 0 0;
 }
+@media (max-width: 860px) {
+  #homepage {
+    padding: 150px 0 0 0;
+  }
+}
 </style>

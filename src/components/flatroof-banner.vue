@@ -29,7 +29,7 @@ export default {
 }
 #flatroof-banner {
   background-image: url("../assets/flatroof.jpg");
-  background-position: left;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 50vh;
@@ -64,6 +64,9 @@ export default {
 @media (max-width: 770px) {
   #foreground {
     font-size: 1.5rem;
+  }
+  #flatroof-banner {
+    background-position: center left;
   }
 }
 @media (max-width: 450px) {

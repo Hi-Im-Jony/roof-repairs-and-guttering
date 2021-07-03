@@ -60,7 +60,12 @@ export default {
   width: 50%;
   min-width: 200px;
 }
-
+@media (min-width: 1160px) {
+  #roof-banner {
+    background-attachment: fixed;
+    background-position: bottom;
+  }
+}
 @media (max-width: 770px) {
   #foreground {
     font-size: 1.5rem;

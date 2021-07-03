@@ -29,7 +29,7 @@ export default {
 }
 #flatroof-banner {
   background-image: url("../assets/chimney.png");
-  background-position: left bottom;
+
   background-repeat: no-repeat;
   background-size: cover;
   height: 50vh;
@@ -60,7 +60,12 @@ export default {
   width: 50%;
   min-width: 200px;
 }
-
+@media (min-width: 900px) {
+  #flatroof-banner {
+    background-attachment: fixed;
+    background-position: left center;
+  }
+}
 @media (max-width: 770px) {
   #foreground {
     font-size: 1.5rem;

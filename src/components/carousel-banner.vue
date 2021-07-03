@@ -1,5 +1,5 @@
 <template>
-  <v-carousel cycle interval="4500" hide-delimiters show-arrows-on-hover>
+  <v-carousel interval="4500" hide-delimiters show-arrows-on-hover>
     <v-carousel-item>
       <roof-banner />
     </v-carousel-item>

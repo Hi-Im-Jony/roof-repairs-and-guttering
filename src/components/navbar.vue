@@ -14,13 +14,23 @@
           Dublin, Meath & Louth
         </p>
       </div>
+      <div id="sticky-container" v-else>
+        <sticky-mail />
+        <sticky-phone />
+      </div>
     </nav>
   </div>
 </template>
 
 <script>
+import StickyMail from "./sticky-mail.vue";
+import StickyPhone from "./sticky-phone.vue";
 export default {
   name: "navbar",
+  components: {
+    StickyMail,
+    StickyPhone,
+  },
   data: () => ({
     windowWidth: window.innerWidth,
   }),
@@ -32,6 +42,7 @@ export default {
   color: white;
   background: rgb(248, 248, 248);
   position: fixed;
+  top: 0;
   z-index: 1;
   width: 100%;
   height: 130px;
@@ -66,5 +77,19 @@ p {
   margin: 10px !important;
 }
 @media (max-width: 860px) {
+  #navbar {
+    flex-direction: column-reverse;
+    padding: 0 !important;
+    border: none;
+    height: auto;
+  }
+  #sticky-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(11, 19, 43, 0.836);
+    padding: 10px 0 10px 0;
+  }
 }
 </style>

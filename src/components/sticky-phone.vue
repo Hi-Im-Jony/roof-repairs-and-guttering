@@ -63,4 +63,9 @@ export default {
     width: 2px;
   }
 }
+@media (max-width: 270px) {
+  #sticky {
+    margin: 0 5px 0 5px;
+  }
+}
 </style>

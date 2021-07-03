@@ -1,15 +1,19 @@
 <template>
-  <v-carousel cycle interval="4500" hide-delimiters show-arrows-on-hover>
+  <v-carousel interval="4500" hide-delimiters show-arrows-on-hover>
     <v-carousel-item>
       <roof-banner />
     </v-carousel-item>
     <v-carousel-item>
       <gutter-banner />
     </v-carousel-item>
+    <v-carousel-item>
+      <flatroof-banner />
+    </v-carousel-item>
   </v-carousel>
 </template>
 
 <script>
+import FlatroofBanner from "./flatroof-banner.vue";
 import GutterBanner from "./gutter-banner.vue";
 import PhoneBtn from "./phone-btn.vue";
 import RoofBanner from "./roof-banner.vue";
@@ -20,6 +24,7 @@ export default {
     PhoneBtn,
     RoofBanner,
     GutterBanner,
+    FlatroofBanner,
   },
 };
 </script>

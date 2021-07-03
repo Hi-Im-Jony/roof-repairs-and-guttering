@@ -84,14 +84,24 @@ export default {
   }
   #jack {
     width: 50vw;
-    min-width: 250px;
+    min-width: 200px;
     max-width: 550px;
     height: auto;
-    margin: 10px;
+    margin: 10px !important;
   }
   #group-2 {
     text-align: center;
     margin: 0 !important;
+  }
+}
+@media (max-width: 250px) {
+  .small-text {
+    min-width: 0;
+    width: 200px;
+  }
+  #group-2 {
+    min-width: 0;
+    width: 200px;
   }
 }
 </style>

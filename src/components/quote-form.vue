@@ -113,7 +113,7 @@ export default {
 <style scoped>
 #form-container {
   width: 25%;
-  min-width: 270px;
+  min-width: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;

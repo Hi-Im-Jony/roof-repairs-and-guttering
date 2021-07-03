@@ -1,6 +1,6 @@
 <template>
   <div id="form-container">
-    <h1>Get A Free Qoute Today</h1>
+    <h1>Get A Free Quote Today</h1>
     <form
       name="quote-form"
       method="POST"

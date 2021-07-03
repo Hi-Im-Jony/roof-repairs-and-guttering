@@ -1,7 +1,7 @@
 <template>
   <div id="container">
     <h1>
-      Here Is Some Of Our Past Work
+      Gallery
     </h1>
     <v-tabs fixed-tabs background-color="#DC143C" color="white" dark>
       <v-tab>

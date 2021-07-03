@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
     <nav id="navbar">
-      <a href="/"><img id="logo" src="../assets/logo4.png" alt=""/></a>
+      <a href="/"><img id="logo" src="../assets/logo1.jpeg" alt=""/></a>
 
       <div v-if="windowWidth > 860" id="deets-container">
         <a class="deet" href="mailto:roofingr7@gmail.com">
@@ -40,7 +40,7 @@ export default {
 <style scoped>
 #navbar {
   color: white;
-  background: rgb(248, 248, 248);
+  background: #f8f8f8;
   position: fixed;
   top: 0;
   z-index: 1;

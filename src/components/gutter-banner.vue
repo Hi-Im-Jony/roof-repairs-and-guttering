@@ -28,11 +28,10 @@ export default {
   position: relative;
 }
 #gutter-banner {
-  background-image: url("../assets/gutter-cleaning.jpg");
-  background-attachment: fixed;
-  background-position: bottom;
+  background-image: url("../assets/gutter.png");
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% auto;
   height: 50vh;
   min-height: 350px;
   width: 100vw;

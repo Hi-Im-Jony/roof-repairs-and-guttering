@@ -29,7 +29,6 @@ export default {
 }
 #roof-banner {
   background-image: url("../assets/roof.jpeg");
-  background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;

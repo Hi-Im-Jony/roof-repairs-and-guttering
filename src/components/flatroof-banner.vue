@@ -29,8 +29,7 @@ export default {
 }
 #flatroof-banner {
   background-image: url("../assets/flatroof.jpg");
-  background-attachment: fixed;
-  background-position: bottom;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
   height: 50vh;

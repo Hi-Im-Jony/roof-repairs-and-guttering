@@ -29,7 +29,6 @@ export default {
 }
 #flatroof-banner {
   background-image: url("../assets/chimney.png");
-  background-attachment: fixed;
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;

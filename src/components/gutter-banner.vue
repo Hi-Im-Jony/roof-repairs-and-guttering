@@ -1,10 +1,10 @@
 <template>
   <div id="banner-container">
-    <div id="roof-banner"></div>
+    <div id="gutter-banner"></div>
     <div id="foreground">
-      <h1>ROOFING</h1>
+      <h1>GUTTERING</h1>
       <p>
-        25 year guaranteed Roof Installations and Roof Repairs.
+        25 year guaranteed Gutter Installations and Gutter Repairs.
         <br />
         Call today for a free no-obligation quote!
       </p>
@@ -17,7 +17,7 @@
 import phoneBtn from "./phone-btn.vue";
 export default {
   components: { phoneBtn },
-  name: "roof-banner",
+  name: "gutter-banner",
 };
 </script>
 
@@ -27,8 +27,8 @@ export default {
   padding: 0;
   position: relative;
 }
-#roof-banner {
-  background-image: url("../assets/roof.jpeg");
+#gutter-banner {
+  background-image: url("../assets/gutter-cleaning.jpg");
   background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;

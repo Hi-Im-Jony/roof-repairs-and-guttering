@@ -1,15 +1,16 @@
 <template>
-  <v-carousel cycle height="400" hide-delimiters show-arrows-on-hover>
+  <v-carousel cycle interval="4500" hide-delimiters show-arrows-on-hover>
     <v-carousel-item>
       <roof-banner />
     </v-carousel-item>
     <v-carousel-item>
-      <roof-banner />
+      <gutter-banner />
     </v-carousel-item>
   </v-carousel>
 </template>
 
 <script>
+import GutterBanner from "./gutter-banner.vue";
 import PhoneBtn from "./phone-btn.vue";
 import RoofBanner from "./roof-banner.vue";
 
@@ -18,6 +19,7 @@ export default {
   components: {
     PhoneBtn,
     RoofBanner,
+    GutterBanner,
   },
 };
 </script>

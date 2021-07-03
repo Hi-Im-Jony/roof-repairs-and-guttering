@@ -2,9 +2,9 @@
   <div id="banner-container">
     <div id="flatroof-banner"></div>
     <div id="foreground">
-      <h1>FLAT ROOFS</h1>
+      <h1>CHIMNEYS</h1>
       <p>
-        25 year guaranteed Roof Installations and Roof Repairs.
+        25 year guaranteed Chimney Installations and Chimney Repairs.
         <br />
         Call today for a free no-obligation quote!
       </p>
@@ -28,9 +28,9 @@ export default {
   position: relative;
 }
 #flatroof-banner {
-  background-image: url("../assets/flatroof.jpg");
+  background-image: url("../assets/chimney.png");
   background-attachment: fixed;
-  background-position: bottom;
+  background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;
   height: 50vh;

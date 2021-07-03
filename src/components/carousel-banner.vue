@@ -9,10 +9,14 @@
     <v-carousel-item>
       <flatroof-banner />
     </v-carousel-item>
+    <v-carousel-item>
+      <chimney-banner />
+    </v-carousel-item>
   </v-carousel>
 </template>
 
 <script>
+import ChimneyBanner from "./chimney-banner.vue";
 import FlatroofBanner from "./flatroof-banner.vue";
 import GutterBanner from "./gutter-banner.vue";
 import PhoneBtn from "./phone-btn.vue";
@@ -25,6 +29,7 @@ export default {
     RoofBanner,
     GutterBanner,
     FlatroofBanner,
+    ChimneyBanner,
   },
 };
 </script>

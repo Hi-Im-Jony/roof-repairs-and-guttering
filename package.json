@@ -8,7 +8,6 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "masonry-layout": "^4.2.2",
     "vue": "^2.6.11",
     "vue-faq-accordion": "^1.6.2",
     "vue-router": "^3.2.0",

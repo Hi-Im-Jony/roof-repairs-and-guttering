@@ -21,7 +21,7 @@ export default {
   background: #c51e3f;
   border: solid aliceblue;
   border-width: 2px;
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,12 +47,12 @@ export default {
 #cstm-spacer {
   width: 10px;
 }
-@media (max-width: 440px) {
+@media (max-width: 490px) {
   #sticky {
     font-size: 0.9rem;
   }
 }
-@media (max-width: 340px) {
+@media (max-width: 430px) {
   .icon {
     font-size: 1rem !important;
   }
@@ -63,8 +63,9 @@ export default {
     width: 2px;
   }
 }
-@media (max-width: 270px) {
+@media (max-width: 330px) {
   #sticky {
+    font-size: 4vw;
     margin: 0 5px 0 5px;
   }
 }

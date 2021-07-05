@@ -52,6 +52,9 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
+  background: rgba(11, 19, 43, 0.836);
+  color: aliceblue;
 }
 h1 {
   max-width: 75%;

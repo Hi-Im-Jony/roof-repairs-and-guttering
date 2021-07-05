@@ -4,6 +4,7 @@
     <paint />
     <intro-text />
     <mini-banner />
+    <maps />
     <services />
     <gallery />
     <myfooter />
@@ -19,6 +20,7 @@ import Myfooter from "../components/myfooter.vue";
 import CarouselBanner from "../components/carousel-banner.vue";
 import Paint from "../components/paint.vue";
 import Gallery from "../components/gallery.vue";
+import Maps from "../components/maps.vue";
 
 export default {
   name: "Home",
@@ -32,6 +34,7 @@ export default {
     CarouselBanner,
     Paint,
     Gallery,
+    Maps,
   },
 };
 </script>

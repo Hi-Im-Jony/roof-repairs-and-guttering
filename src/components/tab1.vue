@@ -73,7 +73,7 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
 .stack {
   width: 100% !important;
   padding: 0 10px 0 10px !important;

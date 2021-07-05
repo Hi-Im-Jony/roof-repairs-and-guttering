@@ -5,7 +5,7 @@
     <intro-text />
     <mini-banner />
     <services />
-
+    <gallery />
     <myfooter />
   </div>
 </template>
@@ -18,6 +18,7 @@ import Services from "../components/services.vue";
 import Myfooter from "../components/myfooter.vue";
 import CarouselBanner from "../components/carousel-banner.vue";
 import Paint from "../components/paint.vue";
+import Gallery from "../components/gallery.vue";
 
 export default {
   name: "Home",
@@ -30,6 +31,7 @@ export default {
     Myfooter,
     CarouselBanner,
     Paint,
+    Gallery,
   },
 };
 </script>

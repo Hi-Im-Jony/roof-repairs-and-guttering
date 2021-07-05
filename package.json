@@ -11,6 +11,7 @@
     "vue": "^2.6.11",
     "vue-faq-accordion": "^1.6.2",
     "vue-router": "^3.2.0",
+    "vue-stack-grid": "^1.2.2",
     "vuetify": "^2.4.0"
   },
   "devDependencies": {

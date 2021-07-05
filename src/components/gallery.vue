@@ -11,12 +11,18 @@
       <v-tab>
         Tab 2
       </v-tab>
+      <v-tab>
+        Tab 3
+      </v-tab>
 
       <v-tab-item class="tab-content">
         <tab-1 />
       </v-tab-item>
       <v-tab-item class="tab-content">
         <tab-2 />
+      </v-tab-item>
+      <v-tab-item class="tab-content">
+        <tab-3 />
       </v-tab-item>
     </v-tabs>
   </div>
@@ -25,11 +31,13 @@
 <script>
 import Tab1 from "./tab1.vue";
 import Tab2 from "./tab2.vue";
+import Tab3 from "./tab3.vue";
 
 export default {
   components: {
     Tab1,
     Tab2,
+    Tab3,
   },
   name: "mediaTabs",
 };

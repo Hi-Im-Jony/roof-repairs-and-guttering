@@ -1,49 +1,31 @@
 <template>
   <stack :column-min-width="getWidth()" monitor-images-loaded class="stack">
     <stack-item style="transition: transform 300ms">
-      <img src="../assets/img1.jpg" />
+      <img src="../assets/roofs/roof1.jpeg" />
     </stack-item>
     <stack-item style="transition: transform 300ms">
-      <img src="../assets/img2.jpg" />
+      <img src="../assets/roofs/roof2.jpeg" />
     </stack-item>
     <stack-item style="transition: transform 300ms">
-      <img src="../assets/img1.jpg" />
+      <img src="../assets/roofs/roof3.jpeg" />
     </stack-item>
     <stack-item style="transition: transform 300ms">
-      <img src="../assets/img3.jpg" />
+      <img src="../assets/roofs/roof4.jpeg" />
     </stack-item>
     <stack-item style="transition: transform 300ms">
-      <img src="../assets/img2.jpg" />
+      <img src="../assets/roofs/roof5.jpeg" />
     </stack-item>
     <stack-item style="transition: transform 300ms">
-      <img src="../assets/img3.jpg" />
+      <img src="../assets/roofs/roof6.jpeg" />
     </stack-item>
     <stack-item style="transition: transform 300ms">
-      <img src="../assets/img1.jpg" />
+      <img src="../assets/roofs/roof7.jpeg" />
     </stack-item>
     <stack-item style="transition: transform 300ms">
-      <img src="../assets/img2.jpg" />
+      <img src="../assets/roofs/roof8.jpeg" />
     </stack-item>
     <stack-item style="transition: transform 300ms">
-      <img src="../assets/img1.jpg" />
-    </stack-item>
-    <stack-item style="transition: transform 300ms">
-      <img src="../assets/img2.jpg" />
-    </stack-item>
-    <stack-item style="transition: transform 300ms">
-      <img src="../assets/img3.jpg" />
-    </stack-item>
-    <stack-item style="transition: transform 300ms">
-      <img src="../assets/img3.jpg" />
-    </stack-item>
-    <stack-item style="transition: transform 300ms">
-      <img src="../assets/img2.jpg" />
-    </stack-item>
-    <stack-item style="transition: transform 300ms">
-      <img src="../assets/img3.jpg" />
-    </stack-item>
-    <stack-item style="transition: transform 300ms">
-      <img src="../assets/img3.jpg" />
+      <img src="../assets/roofs/roof9.jpeg" />
     </stack-item>
   </stack>
 </template>

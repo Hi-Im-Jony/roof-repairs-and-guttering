@@ -1,49 +1,13 @@
 <template>
   <stack :column-min-width="getWidth()" monitor-images-loaded class="stack">
     <stack-item style="transition: transform 300ms">
-      <img src="../assets/img1.jpg" />
+      <img src="../assets/gutters/gutter1.jpeg" />
     </stack-item>
     <stack-item style="transition: transform 300ms">
-      <img src="../assets/img2.jpg" />
+      <img src="../assets/gutters/gutter2.jpeg" />
     </stack-item>
     <stack-item style="transition: transform 300ms">
-      <img src="../assets/img1.jpg" />
-    </stack-item>
-    <stack-item style="transition: transform 300ms">
-      <img src="../assets/img3.jpg" />
-    </stack-item>
-    <stack-item style="transition: transform 300ms">
-      <img src="../assets/img2.jpg" />
-    </stack-item>
-    <stack-item style="transition: transform 300ms">
-      <img src="../assets/img3.jpg" />
-    </stack-item>
-    <stack-item style="transition: transform 300ms">
-      <img src="../assets/img1.jpg" />
-    </stack-item>
-    <stack-item style="transition: transform 300ms">
-      <img src="../assets/img2.jpg" />
-    </stack-item>
-    <stack-item style="transition: transform 300ms">
-      <img src="../assets/img1.jpg" />
-    </stack-item>
-    <stack-item style="transition: transform 300ms">
-      <img src="../assets/img2.jpg" />
-    </stack-item>
-    <stack-item style="transition: transform 300ms">
-      <img src="../assets/img3.jpg" />
-    </stack-item>
-    <stack-item style="transition: transform 300ms">
-      <img src="../assets/img3.jpg" />
-    </stack-item>
-    <stack-item style="transition: transform 300ms">
-      <img src="../assets/img2.jpg" />
-    </stack-item>
-    <stack-item style="transition: transform 300ms">
-      <img src="../assets/img3.jpg" />
-    </stack-item>
-    <stack-item style="transition: transform 300ms">
-      <img src="../assets/img3.jpg" />
+      <img src="../assets/gutters/gutter3.jpeg" />
     </stack-item>
   </stack>
 </template>

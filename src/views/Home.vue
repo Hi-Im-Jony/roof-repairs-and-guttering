@@ -5,7 +5,7 @@
     <intro-text />
     <mini-banner />
     <services />
-    <media-tabs />
+
     <myfooter />
   </div>
 </template>
@@ -15,7 +15,6 @@ import IntroText from "../components/intro-text.vue";
 import MiniBanner from "../components/mini-banner.vue";
 import roofBanner from "../components/roof-banner.vue";
 import Services from "../components/services.vue";
-import mediaTabs from "../components/media-tabs.vue";
 import Myfooter from "../components/myfooter.vue";
 import CarouselBanner from "../components/carousel-banner.vue";
 import Paint from "../components/paint.vue";
@@ -28,7 +27,6 @@ export default {
     MiniBanner,
     IntroText,
     Services,
-    mediaTabs,
     Myfooter,
     CarouselBanner,
     Paint,

@@ -1,19 +1,19 @@
 <template>
   <div id="sticky">
-    <a href="mailto:roofingr7@gmail.com">
+    <a href="#anchor">
       <v-icon class="icon">
-        mdi-email
+        mdi-map-marker
       </v-icon>
       <div id="cstm-spacer"></div>
 
-      Email Us
+      Find Us
     </a>
   </div>
 </template>
 
 <script>
 export default {
-  name: "stickyMail",
+  name: "stickyLocation",
 };
 </script>
 

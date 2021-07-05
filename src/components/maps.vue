@@ -1,7 +1,8 @@
 <template>
-  <div id="container">
+  <div id="m-container">
+    <div id="anchor"></div>
     <h1>Where To Find Us</h1>
-    <div class="maps-container">
+    <div id="maps-container">
       <div class="map">
         <h3>
           Robinhood Industrial Estate, Clondalkin, Dublin 22
@@ -33,7 +34,7 @@ export default {
 </script>
 
 <style scoped>
-#container {
+#m-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,7 +43,7 @@ h1 {
   max-width: 75%;
   text-align: center;
 }
-.maps-container {
+#maps-container {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -68,7 +69,7 @@ iframe {
 }
 
 @media (max-width: 750px) {
-  .maps-container {
+  #maps-container {
     flex-direction: column;
     align-items: center;
   }

@@ -17,19 +17,23 @@
       <div id="sticky-container" v-else>
         <sticky-mail />
         <sticky-phone />
+        <sticky-location />
       </div>
     </nav>
   </div>
 </template>
 
 <script>
+import StickyLocation from "./sticky-location.vue";
 import StickyMail from "./sticky-mail.vue";
 import StickyPhone from "./sticky-phone.vue";
+
 export default {
   name: "navbar",
   components: {
     StickyMail,
     StickyPhone,
+    StickyLocation,
   },
   data: () => ({
     windowWidth: window.innerWidth,

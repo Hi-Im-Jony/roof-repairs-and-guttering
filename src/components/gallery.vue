@@ -5,14 +5,14 @@
     </h1>
     <v-tabs fixed-tabs background-color="#DC143C" color="white" dark>
       <v-tab>
-        Tab 1
+        Roofs
       </v-tab>
 
       <v-tab>
-        Tab 2
+        Gutters
       </v-tab>
       <v-tab>
-        Tab 3
+        Chimneys
       </v-tab>
 
       <v-tab-item class="tab-content">

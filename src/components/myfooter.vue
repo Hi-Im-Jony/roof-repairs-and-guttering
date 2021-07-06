@@ -15,9 +15,15 @@
       </a>
       <a class="number-container" href="tel:+353873794038">
         <v-icon class="icon">
-          mdi-phone
+          mdi-cellphone
         </v-icon>
-        <p class="number">087 379 4038</p>
+        <p class="number">(087) 379 4038</p>
+      </a>
+      <a class="number-container" href="tel:+35016991176">
+        <v-icon class="icon">
+          mdi-deskphone
+        </v-icon>
+        <p class="number">(01) 6991176</p>
       </a>
     </div>
     <div id="col-1">
@@ -35,11 +41,18 @@
       </a>
       <a class="number-container" href="tel:+353870630470">
         <v-icon class="icon">
-          mdi-phone
+          mdi-cellphone
         </v-icon>
-        <p class="number">087 063 0470</p>
+        <p class="number">(087) 063 0470</p>
+      </a>
+      <a class="number-container" href="tel:+3530412130340">
+        <v-icon class="icon">
+          mdi-deskphone
+        </v-icon>
+        <p class="number">(041) 213 0340</p>
       </a>
     </div>
+    <v-spacer />
     <div id="col-1">
       <a class="number-container" href="mailto:roofingr7@gmail.com">
         <v-icon class="icon">
@@ -47,6 +60,7 @@
         </v-icon>
         <p class="number">roofingr7@gmail.com</p>
       </a>
+      <v-spacer />
       <p id="compname">Roof Repairs & Guttering.ie - 2021</p>
     </div>
   </footer>
@@ -64,7 +78,7 @@ footer {
   color: aliceblue;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   text-align: center;
   padding: 5px 10px 5px 10px;
 }
@@ -109,10 +123,13 @@ footer {
   color: inherit !important;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   footer {
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    font-size: 0.9rem !important;
   }
 
   .number-container {

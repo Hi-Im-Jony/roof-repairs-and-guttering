@@ -23,6 +23,6 @@ export default {
 .paint-img {
   width: 30vw;
   max-width: 400px;
-  height: 100%;
+  height: auto;
 }
 </style>

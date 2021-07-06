@@ -5,13 +5,21 @@
     <div id="maps-container">
       <div class="map">
         <h3>
-          Robinhood Industrial Estate, Clondalkin, Dublin 22
+          Robinhood Industrial Estate,
+          <br />
+          Clondalkin, Dublin 22
           <br />
           <a class="number-container" href="tel:+353873794038">
             <v-icon class="icon">
-              mdi-phone
+              mdi-cellphone
             </v-icon>
-            <p class="number">087 379 4038</p>
+            <p class="number">(087) 379 4038</p>
+          </a>
+          <a class="number-container" href="tel:+35016991176">
+            <v-icon class="icon">
+              mdi-deskphone
+            </v-icon>
+            <p class="number">(01) 6991176</p>
           </a>
         </h3>
         <iframe
@@ -22,13 +30,21 @@
       </div>
       <div class="map">
         <h3>
-          Donore Business Park, Drogheda, County Louth
+          Donore Business Park,
+          <br />
+          Drogheda, County Louth
           <br />
           <a class="number-container" href="tel:+353870630470">
             <v-icon class="icon">
-              mdi-phone
+              mdi-cellphone
             </v-icon>
-            <p class="number">087 063 0470</p>
+            <p class="number">(087) 063 0470</p>
+          </a>
+          <a class="number-container" href="tel:+3530412130340">
+            <v-icon class="icon">
+              mdi-deskphone
+            </v-icon>
+            <p class="number">(041) 213 0340</p>
           </a>
         </h3>
         <iframe

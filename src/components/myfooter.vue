@@ -5,24 +5,18 @@
         href="https://www.google.com/maps/place/Unit+45,+Robinhood+Industrial+Estate,+Unit+47,+Robinhood+Rd,+Robinhood,+Dublin+22/@53.3185426,-6.3478173,17z/data=!3m1!4b1!4m5!3m4!1s0x48670c980fdfc0f3:0xcf8f97d342529e58!8m2!3d53.3185426!4d-6.3456286?hl=en"
         class="location-container"
       >
-        <v-icon class="icon">
-          mdi-map-marker
-        </v-icon>
+        <v-icon class="icon"> mdi-map-marker </v-icon>
         <p class="location">
           Robinhood Industrial Estate, Clondalkin, Dublin 22
         </p>
         <br />
       </a>
-      <a class="number-container" href="tel:+353873794038">
-        <v-icon class="icon">
-          mdi-cellphone
-        </v-icon>
-        <p class="number">(087) 379 4038</p>
+      <a class="number-container" href="tel:+353877912272">
+        <v-icon class="icon"> mdi-cellphone </v-icon>
+        <p class="number">(087) 791 2272</p>
       </a>
       <a class="number-container" href="tel:+35016991176">
-        <v-icon class="icon">
-          mdi-deskphone
-        </v-icon>
+        <v-icon class="icon"> mdi-deskphone </v-icon>
         <p class="number">(01) 6991176</p>
       </a>
     </div>
@@ -31,33 +25,23 @@
         href="https://www.google.com/maps?q=Donore+Business+Park,+Drogheda,+County+Louth&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjp4LCvuMfxAhXzrnEKHb6hDS0Q_AUoAXoECAEQAw"
         class="location-container"
       >
-        <v-icon class="icon">
-          mdi-map-marker
-        </v-icon>
-        <p class="location">
-          Donore Business Park, Drogheda, County Louth
-        </p>
+        <v-icon class="icon"> mdi-map-marker </v-icon>
+        <p class="location">Donore Business Park, Drogheda, County Louth</p>
         <br />
       </a>
       <a class="number-container" href="tel:+353870630470">
-        <v-icon class="icon">
-          mdi-cellphone
-        </v-icon>
+        <v-icon class="icon"> mdi-cellphone </v-icon>
         <p class="number">(087) 063 0470</p>
       </a>
       <a class="number-container" href="tel:+3530412130340">
-        <v-icon class="icon">
-          mdi-deskphone
-        </v-icon>
+        <v-icon class="icon"> mdi-deskphone </v-icon>
         <p class="number">(041) 213 0340</p>
       </a>
     </div>
     <v-spacer />
     <div id="col-1">
       <a class="number-container" href="mailto:roofingr7@gmail.com">
-        <v-icon class="icon">
-          mdi-email
-        </v-icon>
+        <v-icon class="icon"> mdi-email </v-icon>
         <p class="number">roofingr7@gmail.com</p>
       </a>
       <v-spacer />

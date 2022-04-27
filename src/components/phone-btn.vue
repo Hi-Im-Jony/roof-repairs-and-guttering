@@ -1,16 +1,12 @@
 <template>
   <div>
-    <a v-if="flashing" id="phone-btn" class="glow" href="tel:+353873794038">
-      <v-icon id="icon" dark>
-        mdi-phone
-      </v-icon>
-      087 379 4038
+    <a v-if="flashing" id="phone-btn" class="glow" href="tel:+353877912272">
+      <v-icon id="icon" dark> mdi-phone </v-icon>
+      087 791 2272
     </a>
-    <a v-else id="phone-btn" href="tel:+353873794038">
-      <v-icon id="icon" dark>
-        mdi-phone
-      </v-icon>
-      087 379 4038
+    <a v-else id="phone-btn" href="tel:+353877912272">
+      <v-icon id="icon" dark> mdi-phone </v-icon>
+      087 791 2272
     </a>
   </div>
 </template>
